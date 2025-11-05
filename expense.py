@@ -254,7 +254,7 @@ class DeveloperContact:
         
         contacts = [
             ("📧 Gmail", "inscreator728@gmail.com", "mailto:inscreator728@gmail.com"),
-            ("📱 WhatsApp", "+91 9944762900", "https://wa.me/+919944762900"),
+            ("📱 WhatsApp", "+91 (number)", "https://wa.me/+91(number)"),
             ("📱 Telegram", "@LRD_soul", "https://t.me/LRD_soul"),
             ("📷 Instagram", "@LRD_SOUL", "https://instagram.com/lrd_soul"),
             ("💼 LinkedIn", "LRD TECH", "https://www.linkedin.com/in/lrd-tech-470786348/r"),
@@ -906,4 +906,5 @@ if __name__ == "__main__":
     # Create and run the GUI application
     root = tk.Tk()
     app = ExpenseTrackerGUI(root)
+
     root.mainloop()
